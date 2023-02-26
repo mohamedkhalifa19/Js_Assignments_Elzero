@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Learn JavaScript</title>
+    <script>
+      // this code not work becuse compiler run code line by line 
+      document.getElementById("el").style.color = "red";
+    </script>
+    <script>
+      // Code works
+      window.onload = function () {
+        document.getElementById("el").style.color = "red";
+      };
+    </script>
+  </head>
+  <body>
+    <h1 id="el">Page Title</h1>
+    <script>
+      // Code  works
+      document.getElementById("el").style.color = "red";
+    </script>
+  </body>
+</html>
